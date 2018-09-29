@@ -48,6 +48,13 @@ syntax keyword bazelRule contained
   \ maven_jar
   \ new_http_archive
   \ new_local_repository
+  \ java_agent
+  \ java_antlr_library
+  \ jvm_binary
+  \ jvm_prep_command
+  \ jvm_app
+  \ python_library
+  \ python_binary
 
 syntax match pythonArgName "\w\+\(\s*=\)\@=" contains=bazelAttribute transparent
 syntax match pythonCall    "\w\+\(\s*(\)\@=" contains=bazelRule transparent
